@@ -82,7 +82,7 @@ function getUrl($shortCode,$pdo){
         throw new \Exception("Error URL is not valid!");
     }
     if(!($longUrl = isShortCodeExist($shortCode,$pdo))){
-        throw new \Exception("404 Error page not found - the page {$site}.{$shortCode} does not exist!");
+        throw new \Exception("404 Error page not found - the page {$site}{$shortCode} does not exist!");
     }
         return $longUrl;
 }
