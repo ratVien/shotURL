@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^shorten/(.*)$ short.php?url=$1 [L]
+RewriteRule ^([0-9a-zA-Z]{1,5})$ redirect.php?l=$1 [L]
+</IfModule>
+ErrorDocument 404 /error.php?404
+ErrorDocument 500 /error.php?500
+ErrorDocument 403 /error.php?403
