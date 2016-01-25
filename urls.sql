@@ -41,7 +41,7 @@ INSERT INTO `urls` (`id`, `long_url`, `short_url`) VALUES
 (1, 'https://www.google.ru', 'b'),
 (2, 'https://vk.com/im?peers=c79', 'c'),
 (3, 'http://erevak.ru/altai/page/2/', 'd'),
-(4, 'http://yourway.nethouse.ru/nkatyn', 'e'),
+(4, 'http://wayclub.ru/nkatyn', 'e'),
 (5, 'http://habrahabr.ru/post/275219/', 'f');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
